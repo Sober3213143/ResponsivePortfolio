@@ -1,0 +1,80 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+  font-family: var(--font-poppins);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.05rem;
+}
+
+h1 {
+  font-size: clamp(2rem, 15vw, 8rem);
+}
+
+h2 {
+  font-size: clamp(1.8rem, 13vw, 7rem);
+}
+
+h3 {
+  font-size: clamp(1.6rem, 11vw, 6rem);
+}
+
+h4 {
+  font-size: clamp(1.4rem, 9vw, 5rem);
+}
+
+h5 {
+  font-size: clamp(1.2rem, 7vw, 4rem);
+}
+
+h6 {
+  font-size: clamp(1rem, 6vw, 3rem);
+}
+
+a,
+p,
+ul,
+li,
+label {
+  color: var(--text-color);
+  font-family: var(--font-mulish);
+  font-size: clamp(1rem, 6vw, 1.5rem);
+}
+
+@media (max-width: 1280px) {
+  h1 {
+    font-size: clamp(2rem, 14vw, 6rem);
+  }
+
+  h2 {
+    font-size: clamp(1.8rem, 12vw, 5rem);
+  }
+
+  h3 {
+    font-size: clamp(1.6rem, 10vw, 4rem);
+  }
+
+  h4 {
+    font-size: clamp(1.4rem, 8vw, 3rem);
+  }
+
+  h5 {
+    font-size: clamp(1.2rem, 6vw, 2rem);
+  }
+
+  h6 {
+    font-size: clamp(1rem, 5vw, 1.5rem);
+  }
+
+  a,
+  p,
+  ul,
+  li,
+  label {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+  }
+}

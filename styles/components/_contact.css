@@ -1,0 +1,49 @@
+#contact {
+  width: 100%;
+  height: 50vh;
+  background: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+#contact .inp-container input {
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
+  background: var(--secondary-color);
+  border-radius: 999px;
+  border: 1px solid var(--primary-color);
+  outline: 1px solid var(--primary-color);
+  padding: 0 10%;
+  color: var(--text-color);
+  font-size: 1.1rem;
+}
+
+#contact .inp-container input::placeholder {
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+#contact .inp-container input:active,
+#contact .inp-container input:focus {
+  box-shadow: 0 0 10px 2px var(--primary-color);
+}
+
+#contact .inp-container button {
+  margin-top: 1rem;
+  width: 100%;
+  height: 3rem;
+  border-radius: 999px;
+  font-size: 1.3rem;
+  border: none;
+  background: var(--secondary-color);
+  color: var(--text-color);
+}
+
+#contact .inp-container button:hover,
+#contact .inp-container button:focus {
+  box-shadow: 0 0 30px var(--primary-color);
+}

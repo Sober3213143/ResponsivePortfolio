@@ -1,0 +1,30 @@
+@media (min-width: 768px) {
+  #about {
+    height: 100vh;
+  }
+
+  #about .wrapper-about {
+    padding: 10vw 0;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  #about .wrapper-about .left {
+    padding-right: 10%;
+  }
+
+  #about .wrapper-about .left div:nth-child(3) {
+    gap: 1.5rem;
+  }
+
+  #about .wrapper-about .right {
+    height: 100%;
+    padding: 0;
+    display: block;
+  }
+
+  #about .wrapper-about .right .img {
+    height: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  #contact .inp-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #contact .inp-container input {
+    width: 70%;
+    padding: 0 3%;
+    height: 5rem;
+    font-size: 1.6rem;
+  }
+
+  #contact .inp-container input::placeholder {
+    font-size: 1.6rem;
+  }
+
+  #contact .inp-container button {
+    width: 20%;
+    height: 5rem;
+    font-size: 1.6rem;
+  }
+}

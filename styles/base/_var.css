@@ -1,0 +1,11 @@
+:root {
+  --text-color: #0a060e;
+  --primary-color: #7606fe;
+  --secondary-color: #cab8e0;
+  --bg-color: #e4dbf0;
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-mulish: "Mulish", sans-serif;
+
+  --transition: all 0.5s cubic-bezier(0.49, 0.1, 0.5, 1);
+}

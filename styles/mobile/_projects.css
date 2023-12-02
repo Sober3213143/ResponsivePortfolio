@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  #projects {
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper-project {
+    width: 100%;
+    height: 100%;
+    padding: 0 5vw;
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 40%);
+    place-content: center;
+  }
+
+  .wrapper-project .card img {
+    height: 60%;
+  }
+}
